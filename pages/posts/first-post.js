@@ -8,11 +8,12 @@ export default function FirstPost() {
       <Head>
         <title>First Post</title>
       </Head>
-      <h1>FIRST POST</h1>
-      go back to home <br />
-      <Link href={"/"}>
-        <a> {"<==="}</a>
-      </Link>
+      <h1>
+        FIRST POST{" "}
+        <Link href={"/"}>
+          <a> go back to home </a>
+        </Link>
+      </h1>
     </Layout>
   );
 }
